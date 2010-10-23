@@ -1,4 +1,16 @@
 Signum::Application.routes.draw do
+  get "pages/home"
+  get "pages/contact"
+  get "pages/posm"
+  get "pages/fibraoptica"
+  get "pages/reclameluminoase"
+  
+  match "contact" => 'pages#contact'
+  match "posm" => 'pages#posm'
+  match "fibraoptica" => 'pages#fibraoptica'
+  match "reclameluminoase" => 'pages#reclameluminoase'
+  root :to => 'pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
