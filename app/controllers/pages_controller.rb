@@ -7,7 +7,7 @@ class PagesController < ApplicationController
 		@title = "Contact"
 	end
 	
-	def reclame
+	def reclameluminoase
 		@title = "Reclame luminoase"
 	end
 	
@@ -15,7 +15,7 @@ class PagesController < ApplicationController
 		@title = "POSM"
 	end
 	
-	def fibra_optica
+	def fibraoptica
 		@title = "Fibra Optica"
 	end
 
